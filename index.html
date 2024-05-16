@@ -5,30 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <header id="cabecalho">
-        <p>Lucas V. S. Dantas</p>
-        <ul>
-            <li>Sobre mim</li>
-            <li>Skills</li>
-            <li>Hobbies</li>
-            <li>Formação</li>
-            <li>Projetos</li>
-            <li>Contato</li>
+        
+        <p><span class="material-icons">
+            auto_awesome
+        </span> Lucas V. S. Dantas</p>
+        <ul type="none" class="lista_menu">
+            <li><a class="links" href="#">Sobre mim</a></li>
+            <li><a class="links" href="#">Skills</a></li>
+            <li><a class="links" href="#">Hobbies</a></li>
+            <li><a class="links" href="#">Formação</a></li>
+            <li><a class="links" href="#">Projetos</a></li>
+            <li><a class="links" href="#"><strong>Contato</strong></a></li>
         </ul>
     </header>
     <main id="principal">
         
         <!--Introdução-->
         <div id="intro" class="principal_parte">
-            <h1>Olá, meu nome é Lucas Vinicius e construo páginas para web</h1>
-            <p>Eu sou estudante de Front-End e atualmente estou participando no projeto Oracle ONE na Alura.</p>
-            <span>
-                <a href="#">Github</a>
-                <a href="#">Linkedin</a>
-                <a href="#">Curriculo</a>
-            </span>
+            <article id="intro_text">
+                <h1>Olá, meu nome é Lucas Vinicius e construo páginas para web</h1>
+                <p>Eu sou estudante de Front-End e atualmente estou participando no projeto Oracle ONE na Alura.</p>
+                <span>
+                    <a class="links" href="#">Github<span class="material-icons">
+                        north_east
+                        </span></a> 
+                    <a class="links" href="#">Linkedin<span class="material-icons">
+                        north_east
+                        </span></a>
+                    <a class="links" href="#">Curriculo<span class="material-icons">
+                        north_east
+                        </span></a>
+                </span>
+            </article>
+            <img id="minha_foto" src="imagens/foto-perfil.jpg" alt="Lucas Vinicius">
         </div>
 
         <!--Sobre mim-->
@@ -40,7 +54,7 @@
 
         <!--Skills-->
         <div id="skills" class="principal_parte">
-            <ul>
+            <ul type="none" class="lista_horizontal">
                 <li>HTML 5</li>
                 <li>CSS</li>
                 <li>Javascript</li>
@@ -51,7 +65,7 @@
 
         <!--Hobbies-->
         <div id="hobbies" class="principal_parte">
-            <ul>
+            <ul type="none" class="lista_horizontal">
                 <li>Jogar Videogame</li>
                 <li>Ouvir música</li>
                 <li>Ler mangás</li>
@@ -62,7 +76,7 @@
 
         <!--Formação Acadêmica-->
         <div id="formacao" class="principal_parte">
-            <ul>
+            <ul type="none" class="lista_horizontal">
                 <li>
                     <p>Tecnologia da Informação</p>
                     <p>2023 - UFRN</p>
@@ -79,7 +93,7 @@
 
         <!--Experiência Profissional-->
         <div id="exp" class="principal_parte">
-            <ul>
+            <ul type="none">
                 <li>
                     <p>Site sobre Android</p>
                     <p>Challenge Curso em Video</p>
@@ -117,7 +131,7 @@
         </div>
     </main>
 
-    <footer>
+    <footer id="rodape">
 
         <p>Desenvolvido por Lucas Vinicius</p>
         <p>2024</p>

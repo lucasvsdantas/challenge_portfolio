@@ -86,18 +86,22 @@
 /*Sobre mim*/
 #sobre_mim{
     margin: 32px -150px;
+    padding: 32px 150px;
 
     display: flex;
     flex-direction: column;
 
     gap: 16px;
-    padding: 32px 150px;
+    
     background-color: #eaf2fd;
 }
 
-#sobre_mim > h2{
+.subtitulo{
     font-size: 2em;
     font-weight: 700;
+}
+
+#sobre_mim > h2{
     background-color: #eaf2fd;
 }
 
@@ -114,6 +118,123 @@
     background-color: #eaf2fd;
 }
 
+/*Partes com lista*/
+.principal_parte{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.lista_horizontal{
+    display: flex;
+    gap: 16px;
+
+    justify-content: center;
+}
+
+.principal_parte > h2{
+    text-align: center;
+}
+/*Skills e Hobbies*/
+.icone{
+    height: 37px;
+    width: 37px;
+}
+
+#lista_skills > li{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 32px;
+    padding: 16px;
+    justify-content: flex-end;
+
+    width: 176px;
+    height: 174px;
+
+    background-color: white;
+    font-weight: 700;
+}
+
+#lista_hobbies > li{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 32px;
+    padding: 16px;
+    justify-content: flex-end;
+
+    width: 176px;
+    height: 174px;
+
+    background-color: white;
+    font-weight: 700;
+}
+
+/*Formação*/
+#formacao{    
+    margin: 32px -150px;
+    padding: 82px 150px;
+    background-color: #eaf2fd;
+}
+
+#formacao > h2{
+    background-color: #eaf2fd;
+}
+
+#lista_formacao{
+    background-color: #eaf2fd;
+}
+
+#lista_formacao > article{
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+    background-color: #eaf2fd;
+}
+
+.formacao_imagem{
+    display: flex;
+
+    width: 400px;
+    height: 347px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.formacao_imagem > img{
+    background-color: white;
+}
+#ufrn{
+    width: 300px;
+    height: 190px;
+}
+#cev{
+    width: 300px;
+    height: 110px;
+}
+#ifrn{
+    width: 300px;
+    height: 110px;
+}
+
+#lista_formacao > article > h3{
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #eaf2fd;
+}
+
+#lista_formacao > article > p{
+    font-weight: 500;
+    background-color: #eaf2fd;
+}
+
+/*Final*/
+#final{
+    margin: 0px 150px;
+}
 
 #rodape{
     text-align: center;

@@ -26,7 +26,7 @@
     <main id="principal">
         
         <!--Introdução-->
-        <div id="intro" class="principal_parte">
+        <div id="intro">
             <article id="intro_text">
                 <h1>Olá, meu nome é Lucas Vinicius e construo páginas para web</h1>
                 <p>Eu sou estudante de Front-End e atualmente estou participando no projeto Oracle ONE na Alura.</p>
@@ -46,8 +46,8 @@
         </div>
 
         <!--Sobre mim-->
-        <div id="sobre_mim" class="principal_parte">
-            <h2>Sobre mim</h2>
+        <div id="sobre_mim">
+            <h2 class="subtitulo">Sobre mim</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed excepturi nihil et officia molestias, omnis impedit, laboriosam dicta reiciendis inventore consequuntur iusto sit itaque veritatis harum qui odio! Reprehenderit, laboriosam.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto omnis iure dolorem quaerat, repellendus obcaecati animi cumque quae, velit distinctio, quis reiciendis est modi! Nobis itaque quam dolorum quas similique.</p>
             <img class="ass" src="imagens/assinatura.png" alt="Assinatura">
@@ -55,45 +55,59 @@
 
         <!--Skills-->
         <div id="skills" class="principal_parte">
-            <ul type="none" class="lista_horizontal">
-                <li>HTML 5</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Java</li>
-                <li>C++</li>
+            <h2 class="subtitulo">Skills</h2>
+            <ul type="none" class="lista_horizontal" id="lista_skills">
+                <li><img src="imagens/html5-preto.png" alt="HTML5_Logo" class="icone">HTML 5</li>
+                <li><img src="imagens/css-preto.png" alt="CSS_Logo" class="icone">CSS</li>
+                <li><img src="imagens/javascript.png" alt="JS_Logo" class="icone">Javascript</li>
+                <li><img src="imagens/java-preto.png" alt="Java_Logo" class="icone">Java</li>
+                <li><img src="imagens/c++-preto.png" alt="c++_Logo" class="icone">C++</li>
             </ul>
         </div>
 
         <!--Hobbies-->
         <div id="hobbies" class="principal_parte">
-            <ul type="none" class="lista_horizontal">
-                <li>Jogar Videogame</li>
-                <li>Ouvir música</li>
-                <li>Ler mangás</li>
-                <li>Assistir animes e séries</li>
-                <li>Cozinhar</li>
+            <h2 class="subtitulo">Hobbies</h2>
+            <ul type="none" class="lista_horizontal" id="lista_hobbies">
+                <li><img src="imagens/joystick.png" alt="Joystick" class="icone">Jogar Videogame</li>
+                <li><img src="imagens/music.png" alt="musica" class="icone">Ouvir música</li>
+                <li><img src="imagens/book.png" alt="Livro" class="icone">Ler mangás</li>
+                <li><img src="imagens/tv.png" alt="TV" class="icone">Assistir animes</li>
+                <li><img src="imagens/cook.png" alt="Panela" class="icone">Cozinhar</li>
             </ul>
         </div>
 
         <!--Formação Acadêmica-->
         <div id="formacao" class="principal_parte">
-            <ul type="none" class="lista_horizontal">
-                <li>
-                    <p>Tecnologia da Informação</p>
+            <h2 class="subtitulo">Formação acadêmica</h2>
+            <div class="lista_horizontal" id="lista_formacao">
+                <article>
+                    <aside class="formacao_imagem">
+                        <img src="imagens/ufrn.png" alt="Logo_UFRN" id="ufrn">
+                    </aside>
+                    <h3>Tecnologia da Informação</h3>
                     <p>2023 - UFRN</p>
-                </li>
-                <li>
-                    <p>HTML 5, CSS 3 e JS</p>
-                    <p>2024 - Curso em Video</p></li>
-                <li>
-                    <p>Ensino médio</p>
+                </article>
+                <article>
+                    <aside class="formacao_imagem">
+                        <img src="imagens/cursoemvideo.png" alt="Logo_CursoEmVideo" id="cev">
+                    </aside>
+                    <h3>HTML 5, CSS 3 e JS</h3>
+                    <p>2024 - Curso em Video</p>
+                </article>
+                <article>
+                    <aside class="formacao_imagem">
+                        <img src="imagens/ifrn.png" alt="Logo_IFRN" id="ifrn">
+                    </aside>
+                    <h3>Ensino médio</h3>
                     <p>2018 - IFRN</p>
-                </li>
-            </ul>
+                </article>
+            </div>
         </div>
 
         <!--Experiência Profissional-->
         <div id="exp" class="principal_parte">
+            <h2 class="subtitulo">Experiência profissional</h2>
             <ul type="none">
                 <li>
                     <p>Site sobre Android</p>
@@ -119,9 +133,13 @@
             </ul>
         </div>
 
+        
+    </main>
+
+    <footer id="final">
         <!--Contato-->
-        <div id="contato" class="principal_parte">
-            <h2>Contato</h2>
+        <div id="contato">
+            <h2 class="subtitulo">Contato</h2>
             <p>Quer entrar em contato comigo?</p>
             <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
             <input type="text" name="nome" id="inome">
@@ -130,14 +148,13 @@
             <input type="text" name="msg" id="imsg">
             <input type="button" value="Enviar mensagem">
         </div>
-    </main>
 
-    <footer id="rodape">
-
-        <p>Desenvolvido por Lucas Vinicius</p>
-        <p>2024</p>
-
+        <div id="rodape">
+            <p>Desenvolvido por Lucas Vinicius</p>
+            <p>2024</p>
+        </div>
     </footer>
+
     <script src="script/script.js"></script>
 </body>
 

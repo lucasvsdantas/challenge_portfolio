@@ -231,6 +231,72 @@
     background-color: #eaf2fd;
 }
 
+/*Experiência Profissional*/
+#exp{
+    display: flex;
+    flex-direction: column;
+
+    gap: 32px;
+}
+
+#exp > ul{
+    display: flex;
+    flex-direction: column;
+
+    gap: 64px;
+}
+
+#exp > ul > li{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.exp_img{
+    width: 752px;
+    height: 406px;
+}
+
+.exp_li_par{
+    flex-direction: row-reverse;
+}
+
+.exp_li_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.exp_li_texto > h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.exp_li_texto > span{
+    display: flex;
+    gap: 16px;
+}
+
+.button_rep{
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    background-color: #F5F5F5;
+
+    padding: 16px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.button_demo{
+    border: 1px solid #2A7AE4;
+    background-color: #2A7AE4;
+    color: white;
+
+    padding: 16px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
 /*Final*/
 #final{
     margin: 0px 150px;

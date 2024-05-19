@@ -163,14 +163,20 @@
     <footer id="final">
         <!--Contato-->
         <div id="contato">
-            <h2 class="subtitulo">Contato</h2>
-            <p>Quer entrar em contato comigo?</p>
-            <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-            <input type="text" name="nome" id="inome">
-            <input type="email" name="email" id="iemail">
-            <input type="text" name="assunto" id="iassunto">
-            <input type="text" name="msg" id="imsg">
-            <input type="button" value="Enviar mensagem">
+            <img src="imagens/contato_telefone.PNG" alt="Telefone">
+            <article>
+                <aside>
+                    <h2 class="subtitulo">Contato</h2>
+                    <p>Quer entrar em contato comigo?<br>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+                </aside>
+                <span class="contato_input">
+                    <input type="text" name="nome" id="inome" placeholder="Nome">
+                    <input type="email" name="email" id="iemail" placeholder="E-mail">
+                    <input type="text" name="assunto" id="iassunto" placeholder="Assunto">
+                    <textarea name="mensagem" id="imsg" class="Mensagem" placeholder="Mensagem"></textarea>
+                </span>
+                <input type="button" value="Enviar mensagem" class="button_demo" id="button_enviar">
+            </article>
         </div>
 
         <div id="rodape">

@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
 
-    font-family: 'Raleway', cursive;
+    font-family: 'Raleway', sans-serif;
     color: #464646;
 
     background-color: #F5F5F5;
@@ -302,6 +302,98 @@
     margin: 0px 150px;
 }
 
+/*Contato*/
+#contato{
+    display: flex;
+    gap: 16px;
+
+    margin: 32px -150px;
+    padding: 82px 150px;
+    background-color: #eaf2fd;
+}
+
+#contato > img{
+    width: 464px;
+    height: 593px;
+}
+
+#contato > article{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: #eaf2fd;
+}
+
+#contato > article > aside{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #eaf2fd;
+}
+
+#contato > article > aside > h2{
+    background-color: #eaf2fd;
+}
+
+#contato > article > aside > p{
+    background-color: #eaf2fd;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.contato_input{
+    display: flex;
+    flex-direction: column;
+    background-color: #eaf2fd;
+
+    gap: 32px;
+}
+
+.contato_input > input{
+
+    width: 656px;
+    height: 56px;
+
+    padding: 0px 12px;
+
+    background-color: white;
+    border: 0px;
+    border-radius: 4px;
+    box-shadow: 0px 1px #C8C8C8;
+}
+
+#imsg{
+    width: 656px;
+    height: 109px;
+
+    padding: 12px;
+    resize: none;
+    background-color: white;
+    border: 0px;
+    border-radius: 4px;
+    box-shadow: 0px 1px #C8C8C8;
+}
+
+#imsg::placeholder{
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.contato_input > input::placeholder{
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+}
+
+#button_enviar{
+    width: 165px;
+    height: 51px;
+}
+
+/*Rodapé*/
 #rodape{
     text-align: center;
 }

@@ -307,7 +307,7 @@
     display: flex;
     gap: 16px;
 
-    margin: 32px -150px;
+    margin: 32px -150px 0px -150px;
     padding: 82px 150px;
     background-color: #eaf2fd;
 }
@@ -395,5 +395,13 @@
 
 /*Rodapé*/
 #rodape{
+    margin: 0px -150px;
+    background-color: #ffffff;
     text-align: center;
+    padding: 32px;
+}
+
+#rodape > p{
+    background-color: #ffffff;
+    font-weight: 500;
 }

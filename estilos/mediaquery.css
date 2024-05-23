@@ -3,7 +3,7 @@
 
 /*Media Query*/
 /*Tablet*/
-@media(max-width: 1024px) and (min-width: 500px){
+@media(max-width: 1024px) and (min-width: 725px){
 
     /*Mudanças Cabeçalho*/
     #cabecalho{
@@ -18,10 +18,14 @@
     /*Mudanças Main*/
     #principal{
         margin: 0px;
-        padding: 16px 32px;
+        padding: 16px 0px;
     }
 
     /*Mudanças Intro*/
+    #intro{
+        margin: 0px;
+        padding: 16px 32px;
+    }
 
     #intro_text > h1{
         font-size: 22px;
@@ -37,6 +41,10 @@
     }
 
     /*Mudanças Sobre mim*/
+    #sobre_mim{
+        margin: 32px 0px;
+        padding: 32px;
+    }
 
     .subtitulo{
         font-size: 22px;
@@ -61,10 +69,93 @@
 
     /*Mudanças Formação Acadêmica*/
 
-    
+    #formacao{    
+        margin: 32px 0px;
+        padding: 16px 32px;
+    }
+
+    .formacao_imagem{
+        width: 224px;
+        height: 118px;
+    }
+
+    #ufrn{
+        width: 200px;
+        height: 100px;
+    }
+    #cev{
+        width: 200px;
+        height: 70px;
+    }
+    #ifrn{
+        width: 200px;
+        height: 70px;
+    }
+
+    #lista_formacao > article > h3{
+        font-size: 1em;
+        font-weight: 700;
+        background-color: #eaf2fd;
+    }
+
+    #lista_formacao > article > p{
+        font-size: 14px;
+    }
+
+    /*Mudanças Experiência Profissional*/
+    #exp > ul > li{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .exp_img{
+        max-width: 704px;
+        max-height: 320px;
+    }
+
+    .button_rep{    
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+
+    .button_demo{    
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+
+    /*Mudanças Final*/
+    #final{
+        margin: 0px;
+        padding: 16px 0px;
+    }
+
+    /*Mudanças Contato*/
+    #contato{
+        display: block;
+        margin: 0px;
+        padding: 16px 32px;
+    }
+
+    #contato > img{
+        display: none;
+    }
+
+    .contato_input > input{
+        max-width: 1000px;
+    }
+
+    #imsg{
+        max-width: 1000px;
+    }
+
+    /*Rodapé*/
+    #rodape{
+        margin: 0px;
+        padding: 16px 32px;
+}
 }
 
 /*Celular*/
-@media(max-width: 500px){
+@media(max-width: 725px){
 
 }

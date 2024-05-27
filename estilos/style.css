@@ -374,6 +374,11 @@
     box-shadow: 0px 1px #C8C8C8;
 }
 
+.contato_input > input:focus{
+    outline: none;
+    box-shadow: 0px 3px #2A7AE4;
+}
+
 #imsg{
     max-width: 656px;
     height: 109px;
@@ -393,6 +398,11 @@
     position: absolute;
     top: 12px;
     left: 12px;
+}
+
+#imsg:focus{
+    outline: none;
+    box-shadow: 0px 3px #2A7AE4;
 }
 
 .contato_input > input::placeholder{
